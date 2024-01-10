@@ -19,6 +19,9 @@
 		909626E12B4F1DE800C231AB /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909626E02B4F1DE800C231AB /* Api.swift */; };
 		909626E32B4F1E2200C231AB /* Api+CoinMarketCap+GlobalMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909626E22B4F1E2100C231AB /* Api+CoinMarketCap+GlobalMetrics.swift */; };
 		909626E62B4F1E9000C231AB /* QuoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909626E52B4F1E9000C231AB /* QuoteResponse.swift */; };
+		909626E92B4F1F6100C231AB /* SharedPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909626E82B4F1F6100C231AB /* SharedPatternView.swift */; };
+		909626EB2B4F1FFB00C231AB /* SharedPatternHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909626EA2B4F1FFB00C231AB /* SharedPatternHeaderView.swift */; };
+		909626ED2B4F202300C231AB /* SharedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909626EC2B4F202300C231AB /* SharedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		909626E02B4F1DE800C231AB /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		909626E22B4F1E2100C231AB /* Api+CoinMarketCap+GlobalMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+CoinMarketCap+GlobalMetrics.swift"; sourceTree = "<group>"; };
 		909626E52B4F1E9000C231AB /* QuoteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteResponse.swift; sourceTree = "<group>"; };
+		909626E82B4F1F6100C231AB /* SharedPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPatternView.swift; sourceTree = "<group>"; };
+		909626EA2B4F1FFB00C231AB /* SharedPatternHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPatternHeaderView.swift; sourceTree = "<group>"; };
+		909626EC2B4F202300C231AB /* SharedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				909626DE2B4F1D9900C231AB /* Common */,
-				909626DD2B4F1D5A00C231AB /* Shared VIew Model */,
+				909626DD2B4F1D5A00C231AB /* Shared View Model */,
 				909626D82B4F18F900C231AB /* App */,
 				909626B42B4F18C600C231AB /* Preview Content */,
 			);
@@ -149,11 +155,14 @@
 			name = App;
 			sourceTree = "<group>";
 		};
-		909626DD2B4F1D5A00C231AB /* Shared VIew Model */ = {
+		909626DD2B4F1D5A00C231AB /* Shared View Model */ = {
 			isa = PBXGroup;
 			children = (
+				909626E82B4F1F6100C231AB /* SharedPatternView.swift */,
+				909626EA2B4F1FFB00C231AB /* SharedPatternHeaderView.swift */,
+				909626EC2B4F202300C231AB /* SharedViewModel.swift */,
 			);
-			path = "Shared VIew Model";
+			path = "Shared View Model";
 			sourceTree = "<group>";
 		};
 		909626DE2B4F1D9900C231AB /* Common */ = {
@@ -315,10 +324,13 @@
 				909626DA2B4F192D00C231AB /* HomeView.swift in Sources */,
 				909626B12B4F18C400C231AB /* ContentView.swift in Sources */,
 				909626E62B4F1E9000C231AB /* QuoteResponse.swift in Sources */,
+				909626EB2B4F1FFB00C231AB /* SharedPatternHeaderView.swift in Sources */,
 				909626DC2B4F1ABC00C231AB /* PlaceholderView.swift in Sources */,
 				909626E12B4F1DE800C231AB /* Api.swift in Sources */,
+				909626E92B4F1F6100C231AB /* SharedPatternView.swift in Sources */,
 				909626AF2B4F18C400C231AB /* ViewModelPatternsApp.swift in Sources */,
 				909626E32B4F1E2200C231AB /* Api+CoinMarketCap+GlobalMetrics.swift in Sources */,
+				909626ED2B4F202300C231AB /* SharedViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

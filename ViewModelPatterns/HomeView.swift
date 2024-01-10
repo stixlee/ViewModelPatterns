@@ -16,7 +16,7 @@ struct HomeView: View {
         ZStack {
             TabView {
                 
-                PlaceholderView()
+                SharedPatternView()
                     .tabItem {
                         Label("Shared", systemImage: "house.fill")
                     }
