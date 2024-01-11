@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SharedPatternHeaderView: View {
     
-    @ObservedObject var viewModel: SharedViewModel
+    @EnvironmentObject var viewModel: SharedViewModel
     
     var body: some View {
         VStack {
@@ -41,11 +41,11 @@ struct SharedPatternHeaderView: View {
                     Spacer()
                     Label(
                         title: {
-                            Text(viewModel.title)
+                            Text(viewModel.sharedScreenTitle)
                                 .font(.headline)
                         },
                         icon: {
-                            Image(systemName: viewModel.icon)
+                                Image(systemName: viewModel.sharedScreenIcon)
                                 .font(.headline)
                                 .foregroundColor(viewModel.accentColor)
                                 .padding(.trailing, 4)
@@ -60,10 +60,5 @@ struct SharedPatternHeaderView: View {
     }}
 
 #Preview {
-    SharedPatternHeaderView(viewModel: SharedViewModel(
-        title: "Shared Pattern",
-        icon: "house.fill",
-        showSideMenu: false,
-        accentColor: Color.blue)
-    )
+    SharedPatternHeaderView()
 }

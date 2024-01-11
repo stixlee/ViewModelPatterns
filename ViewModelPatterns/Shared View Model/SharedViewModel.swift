@@ -9,16 +9,23 @@ import SwiftUI
 
 @Observable final class SharedViewModel: ObservableObject {
     
-    var title: String
-    var icon: String
+    var sharedScreenTitle: String
+    var sharedScreenIcon: String
     var showSideMenu: Bool
     var accentColor: Color
     
-    init(title: String, icon: String, showSideMenu: Bool, accentColor: Color) {
-        self.title = title
-        self.icon = icon
+    init(sharedScreenTitle: String, sharedScreenIcon: String, showSideMenu: Bool, accentColor: Color) {
+        self.sharedScreenTitle = sharedScreenTitle
+        self.sharedScreenIcon = sharedScreenIcon
         self.showSideMenu = showSideMenu
         self.accentColor = accentColor
+    }
+    
+    init() {
+        self.sharedScreenTitle = "Shared Pattern"
+        self.sharedScreenIcon = "house.fill"
+        self.showSideMenu = false
+        self.accentColor = .blue
     }
     
 }

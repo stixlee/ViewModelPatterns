@@ -9,15 +9,11 @@ import SwiftUI
 
 struct SharedPatternView: View {
     
-    @StateObject var viewModel: SharedViewModel = SharedViewModel(
-        title: "Shared Pattern",
-        icon: "house.fill",
-        showSideMenu: false,
-        accentColor: Color.blue)
+    @StateObject var viewModel: SharedViewModel = SharedViewModel()
     
     var body: some View {
         VStack {
-            SharedPatternHeaderView(viewModel: viewModel)
+            SharedPatternHeaderView()
             Spacer()
             VStack {
                 Spacer()

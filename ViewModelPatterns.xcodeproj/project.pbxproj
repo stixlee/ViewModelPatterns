@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		909626AF2B4F18C400C231AB /* ViewModelPatternsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909626AE2B4F18C400C231AB /* ViewModelPatternsApp.swift */; };
-		909626B12B4F18C400C231AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909626B02B4F18C400C231AB /* ContentView.swift */; };
 		909626B32B4F18C600C231AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909626B22B4F18C600C231AB /* Assets.xcassets */; };
 		909626B62B4F18C600C231AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909626B52B4F18C600C231AB /* Preview Assets.xcassets */; };
 		909626C02B4F18C600C231AB /* ViewModelPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909626BF2B4F18C600C231AB /* ViewModelPatternsTests.swift */; };
@@ -44,7 +43,6 @@
 /* Begin PBXFileReference section */
 		909626AB2B4F18C400C231AB /* ViewModelPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewModelPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		909626AE2B4F18C400C231AB /* ViewModelPatternsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelPatternsApp.swift; sourceTree = "<group>"; };
-		909626B02B4F18C400C231AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		909626B22B4F18C600C231AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		909626B52B4F18C600C231AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		909626BB2B4F18C600C231AB /* ViewModelPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewModelPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,7 +146,6 @@
 			children = (
 				909626D92B4F192D00C231AB /* HomeView.swift */,
 				909626AE2B4F18C400C231AB /* ViewModelPatternsApp.swift */,
-				909626B02B4F18C400C231AB /* ContentView.swift */,
 				909626B22B4F18C600C231AB /* Assets.xcassets */,
 				909626DB2B4F1ABC00C231AB /* PlaceholderView.swift */,
 			);
@@ -322,7 +319,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				909626DA2B4F192D00C231AB /* HomeView.swift in Sources */,
-				909626B12B4F18C400C231AB /* ContentView.swift in Sources */,
 				909626E62B4F1E9000C231AB /* QuoteResponse.swift in Sources */,
 				909626EB2B4F1FFB00C231AB /* SharedPatternHeaderView.swift in Sources */,
 				909626DC2B4F1ABC00C231AB /* PlaceholderView.swift in Sources */,
