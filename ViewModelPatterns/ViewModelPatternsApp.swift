@@ -10,12 +10,12 @@ import SwiftUI
 @main
 struct ViewModelPatternsApp: App {
     
-    @StateObject var viewModel = SharedViewModel()
+    @StateObject var sharedAppViewModel = SharedAppViewModel()
         
     var body: some Scene {
         WindowGroup {
             HomeView()
-                .environmentObject(viewModel)
+                .environmentObject(sharedAppViewModel)
         }
     }
 }

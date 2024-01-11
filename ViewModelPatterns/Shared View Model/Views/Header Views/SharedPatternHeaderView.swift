@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SharedPatternHeaderView: View {
     
-    @EnvironmentObject var viewModel: SharedViewModel
+    @EnvironmentObject var headerViewModel: SharedHeaderViewModel
     
     var body: some View {
         VStack {
@@ -41,13 +41,13 @@ struct SharedPatternHeaderView: View {
                     Spacer()
                     Label(
                         title: {
-                            Text(viewModel.sharedScreenTitle)
+                            Text(headerViewModel.title)
                                 .font(.headline)
                         },
                         icon: {
-                                Image(systemName: viewModel.sharedScreenIcon)
+                                Image(systemName: headerViewModel.icon)
                                 .font(.headline)
-                                .foregroundColor(viewModel.accentColor)
+                                .foregroundColor(headerViewModel.accentColor)
                                 .padding(.trailing, 4)
                         }
                     )
@@ -61,4 +61,5 @@ struct SharedPatternHeaderView: View {
 
 #Preview {
     SharedPatternHeaderView()
+        .environment(SharedHeaderViewModel())
 }
