@@ -155,8 +155,7 @@
 		909626DD2B4F1D5A00C231AB /* Shared View Model */ = {
 			isa = PBXGroup;
 			children = (
-				909626E82B4F1F6100C231AB /* SharedPatternView.swift */,
-				909626EA2B4F1FFB00C231AB /* SharedPatternHeaderView.swift */,
+				909626F72B4F749C00C231AB /* Views */,
 				909626EC2B4F202300C231AB /* SharedViewModel.swift */,
 			);
 			path = "Shared View Model";
@@ -186,6 +185,15 @@
 				909626E52B4F1E9000C231AB /* QuoteResponse.swift */,
 			);
 			path = DAOs;
+			sourceTree = "<group>";
+		};
+		909626F72B4F749C00C231AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				909626E82B4F1F6100C231AB /* SharedPatternView.swift */,
+				909626EA2B4F1FFB00C231AB /* SharedPatternHeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
